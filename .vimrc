@@ -250,7 +250,7 @@ try
 catch
 endtry
 
-set background=dark
+set background=light
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -531,7 +531,7 @@ autocmd VimEnter * NERDTree
 " => Color Scheme
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax enable
-set background=dark
+set background=light
 colorscheme solarized
 
 " for paste mode and non-paste mode
